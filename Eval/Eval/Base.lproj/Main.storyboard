@@ -66,13 +66,13 @@
                                         <rect key="frame" x="0.0" y="88" width="373" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXi-gx-vSJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="37.333333333333336" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="50"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="7Vk-iL-DVJ">
-                                                <rect key="frame" x="45.333333333333343" y="0.0" width="327.66666666666663" height="50"/>
+                                                <rect key="frame" x="8" y="0.0" width="365" height="50"/>
                                             </datePicker>
                                         </subviews>
                                         <constraints>
