@@ -16,6 +16,8 @@ class AddSectionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Sections"
+        
         tableView.dataSource = self
         
         

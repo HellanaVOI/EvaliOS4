@@ -24,6 +24,7 @@ class AddExpenseViewController: UIViewController {
         super.viewDidLoad()
         
         pickerDate.datePickerMode = .date
+        setMaxDate()
         
         //Config TableView
         tableView.dataSource = self
@@ -45,6 +46,15 @@ class AddExpenseViewController: UIViewController {
             print("Error fetching initial data", error)
         }
 
+    }
+    
+    func setMaxDate(){
+        
+        let cal = Calendar.current
+        let now = Date()  // get the current date and time (2018-03-27 19:38:44)
+        let components = cal.dateComponents([.day, .month, .year], from: now)  // extract the date components 28, 3, 2018
+        let today = cal.date(from: components)!  // build another Date value just with date components, without the time (2018-03-27 00:00:00)
+        pickerDate.maximumDate = today.addingTimeInterval(60 * 60)
     }
     
     func addAlert(message: String){

@@ -196,7 +196,7 @@
         <scene sceneID="4JA-DL-Nbx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3EG-Cz-K7x" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Liste Dépense" image="banknote" catalog="system" selectedImage="banknote.fill" id="H2X-So-a8Q"/>
+                    <tabBarItem key="tabBarItem" title="Liste Dépense" image="eurosign.circle" catalog="system" selectedImage="eurosign.circle.fill" id="H2X-So-a8Q"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="2X6-99-I75">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
@@ -220,7 +220,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4ZW-dG-lC0">
-                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <rect key="frame" x="0.0" y="155" width="393" height="614"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -291,8 +291,8 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0kD-ZS-8DB" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Liste des Section" image="list.bullet.circle" catalog="system" selectedImage="list.bullet.circle.fill" id="jQr-b7-9iQ"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wiu-pu-h61">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="wiu-pu-h61">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -306,9 +306,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="banknote" catalog="system" width="128" height="78"/>
-        <image name="banknote.fill" catalog="system" width="128" height="78"/>
         <image name="cart.badge.questionmark" catalog="system" width="128" height="103"/>
+        <image name="eurosign.circle" catalog="system" width="128" height="123"/>
+        <image name="eurosign.circle.fill" catalog="system" width="128" height="123"/>
         <image name="list.bullet.circle" catalog="system" width="128" height="123"/>
         <image name="list.bullet.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="separatorColor">
