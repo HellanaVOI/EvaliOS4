@@ -16,13 +16,13 @@
                 <rect key="frame" x="0.0" y="0.0" width="483" height="103"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2H-q6-AEk">
-                        <rect key="frame" x="30" y="21" width="80" height="61"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="247" verticalHuggingPriority="251" text="wwwwwwwwwwwwwwww" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2H-q6-AEk">
+                        <rect key="frame" x="30" y="21" width="376" height="61"/>
                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gk2-lC-gEC">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gk2-lC-gEC">
                         <rect key="frame" x="411" y="41.333333333333336" width="42" height="20.333333333333336"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -34,6 +34,7 @@
                     <constraint firstAttribute="bottomMargin" secondItem="a2H-q6-AEk" secondAttribute="bottom" constant="10" id="f3A-rA-joG"/>
                     <constraint firstItem="a2H-q6-AEk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="jPV-Fz-xAB"/>
                     <constraint firstAttribute="trailingMargin" secondItem="Gk2-lC-gEC" secondAttribute="trailing" constant="10" id="p8N-S3-mVh"/>
+                    <constraint firstItem="Gk2-lC-gEC" firstAttribute="leading" secondItem="a2H-q6-AEk" secondAttribute="trailing" constant="5" id="sTP-VU-9Ay"/>
                     <constraint firstItem="Gk2-lC-gEC" firstAttribute="centerY" secondItem="a2H-q6-AEk" secondAttribute="centerY" id="vJR-6G-eyq"/>
                 </constraints>
             </tableViewCellContentView>
