@@ -37,13 +37,14 @@ class DataManager{
     }
     
     private func initSection(){
-        
         if !UserDefaults.standard.bool(forKey: "isFirstLaunch") {
-            addTypeOfExpense(name: "Taxe")
-            addTypeOfExpense(name: "Restaurant")
-            addTypeOfExpense(name: "Voiture")
-            addTypeOfExpense(name: "Maison")
-            addTypeOfExpense(name: "Facture")
+            
+            let sections = ["Impôts", "Loisirs", "Maison", "Nourriture", "Voiture"]
+            
+            sections.forEach{
+                addTypeOfExpense(name: $0)
+            }
+            
             UserDefaults.standard.setValue(true, forKey: "isFirstLaunch")
         }
     }
