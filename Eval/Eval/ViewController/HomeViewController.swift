@@ -16,10 +16,13 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Gérer vos dépenses"
+        
         let request = Expense.fetchRequest()
         request.sortDescriptors = [
             NSSortDescriptor(key: "fkType.name", ascending: true),
-            NSSortDescriptor(key: "date", ascending: true)
+            NSSortDescriptor(key: "date", ascending: false),
+            NSSortDescriptor(key: "name", ascending: true)
         ]
 
 

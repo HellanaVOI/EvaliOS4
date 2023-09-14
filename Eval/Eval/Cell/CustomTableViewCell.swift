@@ -11,6 +11,7 @@ class CustomTableViewCell: UITableViewCell {
     
     @IBOutlet var labelName: UILabel!
     @IBOutlet var labelAmount: UILabel!
+    @IBOutlet var labelDate: UILabel!
     
     
     override func awakeFromNib() {
@@ -22,7 +23,11 @@ class CustomTableViewCell: UITableViewCell {
     }
     
     func setup(item: Expense){
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        
         labelName.text = item.name
+        labelDate.text = dateFormatter.string(from: item.date)
         labelAmount.text = "\(item.value) €"
         
     }

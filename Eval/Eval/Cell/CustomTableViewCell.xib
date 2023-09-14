@@ -9,41 +9,50 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="103" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="Eval" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="483" height="103"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="92" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="Eval" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="487" height="92"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="483" height="103"/>
+                <rect key="frame" x="0.0" y="0.0" width="487" height="92"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="247" verticalHuggingPriority="251" text="wwwwwwwwwwwwwwww" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2H-q6-AEk">
-                        <rect key="frame" x="30" y="21" width="376" height="61"/>
-                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gk2-lC-gEC">
+                        <rect key="frame" x="415" y="49" width="42" height="20.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gk2-lC-gEC">
-                        <rect key="frame" x="411" y="41.333333333333336" width="42" height="20.333333333333336"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gcb-L9-1fx">
+                        <rect key="frame" x="30" y="10" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="247" text="wwwwwwwwwwwwwwww" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2H-q6-AEk">
+                        <rect key="frame" x="30" y="36" width="380" height="46"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="a2H-q6-AEk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="9rb-ax-zIx"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="a2H-q6-AEk" secondAttribute="bottom" constant="10" id="f3A-rA-joG"/>
+                    <constraint firstItem="Gcb-L9-1fx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Crr-wS-EuW"/>
+                    <constraint firstAttribute="bottom" secondItem="a2H-q6-AEk" secondAttribute="bottom" constant="10" id="XvN-GA-ntn"/>
+                    <constraint firstItem="a2H-q6-AEk" firstAttribute="top" secondItem="Gcb-L9-1fx" secondAttribute="bottom" constant="5" id="b3H-T3-PPT"/>
                     <constraint firstItem="a2H-q6-AEk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="jPV-Fz-xAB"/>
                     <constraint firstAttribute="trailingMargin" secondItem="Gk2-lC-gEC" secondAttribute="trailing" constant="10" id="p8N-S3-mVh"/>
                     <constraint firstItem="Gk2-lC-gEC" firstAttribute="leading" secondItem="a2H-q6-AEk" secondAttribute="trailing" constant="5" id="sTP-VU-9Ay"/>
+                    <constraint firstItem="Gcb-L9-1fx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="t3l-yT-I2Z"/>
                     <constraint firstItem="Gk2-lC-gEC" firstAttribute="centerY" secondItem="a2H-q6-AEk" secondAttribute="centerY" id="vJR-6G-eyq"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="labelAmount" destination="Gk2-lC-gEC" id="ih6-rs-H59"/>
+                <outlet property="labelDate" destination="Gcb-L9-1fx" id="jPZ-dx-tuF"/>
                 <outlet property="labelName" destination="a2H-q6-AEk" id="U3a-bj-Uhg"/>
             </connections>
-            <point key="canvasLocation" x="254.19847328244273" y="9.5070422535211279"/>
+            <point key="canvasLocation" x="257.25190839694653" y="5.6338028169014089"/>
         </tableViewCell>
     </objects>
 </document>
