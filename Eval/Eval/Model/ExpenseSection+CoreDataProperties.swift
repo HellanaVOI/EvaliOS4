@@ -16,8 +16,8 @@ extension ExpenseSection {
         return NSFetchRequest<ExpenseSection>(entityName: "ExpenseSection")
     }
 
-    @NSManaged public var name: String?
-    @NSManaged public var fkExpense: Expense?
+    @NSManaged public var name: String
+    @NSManaged public var fkExpense: Set<Expense>
 
 }
 

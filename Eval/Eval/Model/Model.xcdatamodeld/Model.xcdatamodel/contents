@@ -8,6 +8,6 @@
     </entity>
     <entity name="ExpenseSection" representedClassName="ExpenseSection" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="fkExpense" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Expense" inverseName="fkType" inverseEntity="Expense"/>
+        <relationship name="fkExpense" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Expense" inverseName="fkType" inverseEntity="Expense"/>
     </entity>
 </model>
